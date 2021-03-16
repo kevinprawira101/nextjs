@@ -7,24 +7,24 @@ import Sidebar from './sidebar'
 import CreateUser from '../pages/createform/createuser'
 import TabelPajak from '../pages/pajak/tabelpajak'
 
-export default function Layout({}) {
+export default function Layout({ }) {
     return (
-        
-        <div className="bg-white-300">
-              <Navbar>
-                 </Navbar>
-            <Head> 
-           
-            <Sidebar>
-           
-              </Sidebar> 
-              </Head>
-           <div className="container mx-64">
 
-            <TabelPajak> 
+        <div className="bg-white-300">
+            <Navbar>
+            </Navbar>
+            <Head>
+
+                <Sidebar>
+
+            </Sidebar>
+         </Head>
+         <div className="container mx-64">
+ <TabelPajak> 
 
              </TabelPajak>
+</div>
+           
              </div>
-        </div>
     )
 }
