@@ -19,11 +19,13 @@ const createuser = () => {
                                         </svg>
                                     </span>
                                 </div>
-                               
                                 <input type="text" class="flex-shrink flex-grow flex-auto leading-normal tracking-wide w-px flex-1 border border-none border-l-0 rounded rounded-l-none px-3 relative focus:outline-none text-xxs lg:text-xs lg:text-base text-gray-500 font-thin" placeholder="Search">
                            </input>
                             </div>
                         </div>
+                        <div class="inline-block mr-3 mt-2">
+                    <button type="button" class="focus:outline-none text-white text-sm py-2.5 px-5 border-b-4 border-blue-600 rounded-md bg-blue-500 hover:bg-blue-400">+ Create User</button>
+                </div>
                     </div>
                 </div>
                 <div class="align-middle inline-block min-w-full shadow overflow-hidden bg-white shadow-dashboard px-8 pt-3 rounded-bl-lg rounded-br-lg">

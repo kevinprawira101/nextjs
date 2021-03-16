@@ -1,10 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
 import Navbar from './Navbar'
-import Login from './login'
-import Register from './register'
+import Login from '../pages/auth/login'
+import Register from '../pages/auth/register'
 import Sidebar from './sidebar'
-import CreateUser from './createform/createuser'
+import CreateUser from '../pages/createform/createuser'
+import TabelPajak from '../pages/pajak/tabelpajak'
 
 export default function Layout({}) {
     return (
@@ -20,9 +21,9 @@ export default function Layout({}) {
               </Head>
            <div className="container mx-64">
 
-            <CreateUser> 
+            <TabelPajak> 
 
-             </CreateUser>
+             </TabelPajak>
              </div>
         </div>
     )
