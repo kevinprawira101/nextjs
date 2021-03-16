@@ -6,13 +6,16 @@ const sidebar = () => {
 
   <div class="fixed flex flex-col top-0 left-0 w-64 bg-white h-full border-r">
     <div class="flex items-center justify-center h-14 border-b">
-      <div>Sidebar Navigation By iAmine</div>
+      <div></div>
     </div>
+    {/* <div class="flex items-center justify-center mt-5">
+      <div> Test</div>
+    </div> */}
     <div class="overflow-y-auto overflow-x-hidden flex-grow">
       <ul class="flex flex-col py-4 space-y-1">
         <li class="px-5">
           <div class="flex flex-row items-center h-8">
-            <div class="text-sm font-light tracking-wide text-gray-500">Menu</div>
+            <div class="text-lg font-light tracking-wide text-gray-500">Menu</div>
           </div>
         </li>
         <li>
@@ -51,7 +54,7 @@ const sidebar = () => {
         </li>
         <li class="px-5">
           <div class="flex flex-row items-center h-8">
-            <div class="text-sm font-light tracking-wide text-gray-500">Tasks</div>
+            <div class="text-lg font-light tracking-wide text-gray-500">Tasks</div>
           </div>
         </li>
         <li>
@@ -73,7 +76,7 @@ const sidebar = () => {
         </li>
         <li class="px-5">
           <div class="flex flex-row items-center h-8">
-            <div class="text-sm font-light tracking-wide text-gray-500">Settings</div>
+            <div class="text-lg font-light tracking-wide text-gray-500">Settings</div>
           </div>
         </li>
         <li>

@@ -6,6 +6,7 @@ import Register from '../pages/auth/register'
 import Sidebar from './sidebar'
 import CreateUser from '../pages/createform/createuser'
 import TabelPajak from '../pages/pajak/tabelpajak'
+import AddPajak from '../pages/pajak/addpajak'
 
 export default function Layout({ }) {
     return (
@@ -19,12 +20,12 @@ export default function Layout({ }) {
 
             </Sidebar>
          </Head>
-         <div className="container mx-64">
- <TabelPajak> 
 
+         <div className="container mx-64">
+             <TabelPajak>
+                 
              </TabelPajak>
-</div>
-           
-             </div>
+                </div>
+           </div>
     )
 }
