@@ -1,16 +1,29 @@
 import React from 'react'
 import Head from 'next/head'
+import Navbar from './Navbar'
+import Login from './login'
+import Register from './register'
+import Sidebar from './sidebar'
+import CreateUser from './createform/createuser'
 
-export default function Layout({ title, children }) {
+export default function Layout({}) {
     return (
-        <div className="bg-gray-300">
-            <Head>
-                <title>{title}</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <main className="container mx-auto max-w-xl pt-8 min-h-screen">
-                {children}
-            </main>
+        
+        <div className="bg-white-300">
+              <Navbar>
+                 </Navbar>
+            <Head> 
+           
+            <Sidebar>
+           
+              </Sidebar> 
+              </Head>
+           <div className="container mx-64">
+
+            <CreateUser> 
+
+             </CreateUser>
+             </div>
         </div>
     )
 }
